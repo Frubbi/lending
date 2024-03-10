@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Vollkorn&family=Yanone+Kaffeesatz:wght@200..700&family=Zen+Old+Mincho&family=Orelega+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>DumboToy</title>
+</head>
+<body>
+    <div class="header tem1" id="header">
+        <div class="navigation" id="navigation">
+            <img class="header_logo" src="pic/logo.png" alt="logo">
+            <img class="p1" src="pic/twitter.png" alt="twitter">
+            <img class="p2" src="pic/pinterest.png" alt="twitter">
+            <img class="p3" src="pic/heart.png" alt="twitter">
+            <button class="cart" id="cart">
+                <img class="p4" src="pic/basket.png" alt="twitter">
+            </button>
+            <a class="header_item_1" id="con" href="#contacts">КОНТАКТЫ</a>
+            <a class="header_item_1" id="a" href="#introduction">О НАС</a>
+            <a class="header_item_1" id="c" href="#catalog">КАТАЛОГ</a>
+            <button id="ThemeToggle" onclick="changeTheme()">ТЕМА</button>
+        </div>
+        <h1 class="text_1">ГУСЬ МЯКИШ<br>2000 ₽</h1>
+        <button class="button">Добавить в корзину</button>
+        <button class="button" id="b2">Читать больше</button>
+        <img id="cloud2" src="pic/cloud.png" alt="cloud">
+        <img id="cloud3" src="pic/cloud.png" alt="cloud">
+        <img id="cloud" src="pic/cloud.png" alt="cloud">
+        <img id="goose" src="pic/goose.png" alt="goose">
+        <div class="circle">
+            <div class="circle2">
+                <img class="arrow-l" src="pic/arrow-l.png" alt="arrow">
+            </div>
+        </div>
+        <div class="circle" id="circle_r">
+            <div class="circle2">
+                <img class="arrow-l" src="pic/arrow-r.png" alt="arrow">
+            </div>
+        </div>
+        <div class="popup">
+            <div class="popup__container" id="popup_container">
+              <div class="popup__item">
+                <h1 class="popup__title">Оформление заказа</h1>
+              </div>
+              <div class="popup__item" id="popup_product_list">
+              </div>
+              <button class="popup__close" id="popup_close">
+                <span class="close_popup">&times;</span>
+              </button>
+            </div>
+        </div>
+    </div>
+    <div class="introduction" id="introduction">
+        <div class="i1 tem1" id="i1">
+            <img class="i_pic" src="pic/bear.png" alt="pic">
+            <h1 class="op_v">ШИРОКИЙ АССОРТИМЕНТ</h1>
+            <h1 class="op_n">Наш магазин  предлагает большой выбор из 2000 игрушек для детей разных возрастов и предпочтений.</h1>
+        </div>
+        <div class="i1" id="i2">
+            <img class="i_pic" id="i_pic_1" src="pic/truck.png" alt="pic">
+            <h1 class="op_v" id="op_v_1">УДОБНАЯ ДОСТАВКА</h1>
+            <h1 class="op_n" id="op_n_1">Мы быстро и бесплатно<br> доставим вам игрушки<br> по России и странам<br> СНГ.</h1>
+        </div>
+        <div class="i1 tem1" id="i3">
+            <img class="i_pic" id="i_pic_2" src="pic/fire.png" alt="pic">
+            <h1 class="op_v" id="op_v_2">АКЦИИ И СКИДКИ</h1>
+            <h1 class="op_n" id="op_n_2">Наш магазин часто проводит акции и предлагает скидки на <br>определенные товары.</h1>
+        </div>
+        <div class="text_2">
+            <h1 class="text_2_t" id="text_2_t">DumboToy на рынке детских товаров с 2003 г. <br>
+                Мы уделяем особое внимание выбору наших поставщиков, работаем только с надежными и профессиональными производителями, чтобы гарантировать безопасность и долговечность нашей продукции. <br>
+                Наша главная миссия - привнести радость в жизнь детей через наши мягкие игрушки, поддерживая их фантазию и развивая их творческий потенциал.</h1>
+        </div>
+            <img class="girl" src="pic/girl.png" alt="girl">
+    </div>
+    <div class="catalog" id="catalog">
+            <div class="el_1" id="el_1">
+                <div class="box">
+                    <img class="el_1-img" id="el_1-img" src="pic/hare.png">
+                    <button class="card__add">
+                        <img class="basket" src="pic/basket2.png">
+                    </button>
+                    <img class="heart" src="pic/heart2.png">
+                </div>
+                <h1 class="el_1-name">ЗАЯЦ БОНЯ</h1>
+                <h1 class="el_1-cost">1000</h1>
+            </div>
+            <div class="el_1" id="el_2">
+                <div class="box">
+                    <img class="el_1-img" id="el_2-img" src="pic/dinosaur.png">
+                    <button class="card__add">
+                        <img class="basket" src="pic/basket2.png">
+                    </button>
+                    <img class="heart" src="pic/heart2.png">
+                </div>
+                <h1 class="el_1-name" id="name_dino">ДИНОЗАВР РОККИ</h1>
+                <h1 class="el_1-cost">1500</h1>
+            </div>
+            <div class="el_1" id="el_3">
+                <div class="box">
+                    <img class="el_1-img" id="el_3-img" src="pic/fox.png">
+                    <button class="card__add" id="basket">
+                    <img class="basket" src="pic/basket2.png">
+                    </button>
+                    <img class="heart" id="heart" src="pic/heart2.png">
+                </div>
+                <h1 class="el_1-name" >ЛИСА СЛАЙ</h1>
+                <h1 class="el_1-cost">2000</h1>
+                <!-- ₽ -->
+            </div>
+
+            <div class="el_1" id="el_4">
+                <div class="box">
+                    <img class="el_1-img" id="duck" src="pic/duck.png">
+                    <button class="card__add" id="basket4">
+                    <img class="basket" src="pic/basket2.png">
+                    </button>
+                    <img class="heart" id="heart4" src="pic/heart2.png">
+                </div>
+                <h1 class="el_1-name" id="name_uta">УТЯ МОМО</h1>
+                <h1 class="el_1-cost">1000</h1>
+            </div>
+            <div class="el_1" id="el_5">
+                <div class="box">
+                    <img class="el_1-img" id="pig" src="pic/pig.png">
+                    <button class="card__add" id="basket5">
+                    <img class="basket" src="pic/basket2.png">
+                    </button>
+                    <img class="heart" id="heart5" src="pic/heart2.png">
+                </div>
+                <h1 class="el_1-name" id="name_pig" >ПОРОСЁНОК ПУХЛЯ</h1>
+                <h1 class="el_1-cost">1500</h1>
+            </div>
+            <div class="el_1" id="el_6">
+                <div class="box">
+                    <img class="el_1-img" id="dog" src="pic/dog.png">
+                    <button class="card__add" id="basket6">
+                    <img class="basket" src="pic/basket2.png">
+                    </button>
+                    <img class="heart" id="heart6" src="pic/heart2.png">
+                </div>
+                <h1 class="el_1-name" id="name_dog" >ЧИХУАХУА НИКА</h1>
+                <h1 class="el_1-cost">1000</h1>
+            </div>
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+            </div>
+    </div>
+    <div class="contacts tem1" id="contacts">
+        <h1 class="blank_text1" id="blank_name">ЗАДАЙТЕ НАМ ВОПРОС</h1> 
+        <h1 class="blank_text1">ФИО</h1>
+        <input class = "blank_1" id="fio" type="text" size="40">
+        <h1 class="blank_text1 " id="Email">E-mail</h1>
+        <input class = "blank_1" id="email" type="email" size="40">
+        <h1 class="blank_text1" id="quethion">Вопрос</h1>
+        <textarea class = "blank_q" id="question" rows="5" type="text" size="40"> </textarea>
+        <button id="but" onclick="sendFun()">Отправить</button>
+        <div class="contacts_mini">
+            <h1 class="contacts_text">наши контакты</h1>
+            <h1 class="contacts_text_2">Контактные телефоны</h1>
+            <h1 class="contacts_text_3">+7 (473) 210-04-95;<br>
+            +7 (473) 226-66-28</h1>
+            <h1 class="contacts_text_2">Email: </h1>
+            <h1 class="contacts_text_3">mail@dumbotoy.ru</h1>
+            <h1 class="contacts_text_2">Руководитель</h1>
+            <h1 class="contacts_text_3">Антонов Игорь Борисович</h1>
+        </div>
+        <img id="phone" src="pic/phone.png">
+    </div>
+    <div class="footer">
+        <h1 class="footer_item_1">Телефон:<br>+7 473 226-66-28 </h1>
+        <h1 class="footer_item_1" id="footer_item_2">Наше местоположение: <br>г.Москва, ул. Плехановская, 16А</h1>
+        <h1 class="footer_item_1" id="footer_item_3">Email:<br> mail@dumbotoy.ru;</h1>
+    </div>
+    <div class="non">
+        <button type="button" onclick="changecolor()">Изменить цвет</button>
+    </div>
+</body>
+</html>
